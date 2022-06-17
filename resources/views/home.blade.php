@@ -43,56 +43,12 @@
             navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
           </script>
 
-          {{-- <div class="form-group">
-            <label for="clock_in_lat">Latitude</label> --}}
+
             <input type="hidden" id="clock_in_lat" name="clock_in_lat" value="">
-            {{-- <span class="text-danger">
-            @error('clock_in_lat')
-            {{$message}}
-            @enderror
-          </span>
-          </div> --}}
 
-          {{-- <div class="form-group">
-            <label for="clock_in_lat">Latitude_in</label>
-            <input type="text" id="clock_in_lat" name="clock_in_lat" >
-            <span class="text-danger">
-            @error('clock_in_lat')
-            {{$message}}
-            @enderror
-          </span>
-          </div> --}}
-{{-- 
-          <div class="form-group">
-            <label for="clock_in_lng">Longitude_in</label> --}}
             <input type="hidden" id="clock_in_lng" name="clock_in_lng" >
-            {{-- <span class="text-danger">
-            @error('clock_in_lng')
-            {{$message}}
-            @enderror
-          </span>
-          </div> --}}
 
-          {{-- <div class="form-group">
-            <label for="clock_out_lat">Latitude_out</label>
-            <input type="text" id="clock_out_lat" name="clock_out_lat" >
-            <span class="text-danger">
-            @error('clock_out_lat')
-            {{$message}}
-            @enderror
-          </span>
-          </div>
-
-          <div class="form-group">
-            <label for="clock_out_lng">Longitude_out</label>
-            <input type="text" id="clock_out_lng" name="clock_out_lng" >
-            <span class="text-danger">
-            @error('clock_out_lng')
-            {{$message}}
-            @enderror
-          </span>
-          </div> --}}
-          <input type="submit" class="btn btn-primary" value="Clock In">
+            <input type="submit" class="btn btn-primary" value="Clock In">
         </form>
       </div>
     </div>
